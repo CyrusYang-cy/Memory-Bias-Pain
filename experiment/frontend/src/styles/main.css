@@ -1,0 +1,511 @@
+/* Layout shared by all text pages (consent, instructions, survey, ...). */
+.page {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.jspsych-content {
+  width: min(95vw, 900px);
+}
+
+.screen {
+  max-width: 700px;
+  margin: 10vh auto;
+}
+
+.screen__message {
+  font-size: 1.15rem;
+}
+
+/* Hidden but still taking up its space (no layout jump when it appears). */
+.is-invisible {
+  visibility: hidden;
+}
+
+/* --- Form pages ------------------------------------------------------------------- */
+.form-page {
+  max-width: 800px;
+}
+
+.attrition__sentence {
+  background-color: #85fbe4;
+}
+
+/* Inline validation messages (src/ui/form-validation.ts), styled like v1's jQuery-validation. */
+.field-error {
+  margin: 5px 0 0;
+  padding: 5px 8px;
+  border-radius: 0.25rem;
+  background-color: #ffd2d2;
+  color: #d8000c;
+}
+
+.field-error::before {
+  content: "\2716\00a0"; /* ✖ */
+}
+
+#attritionAnswer {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* --- Memory trial (src/plugins/morph-reproduction.ts) ----------------------------- */
+.morph-trial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.morph-trial__prompt {
+  align-self: stretch;
+  text-align: center; /* centred above the slider, also when the text wraps */
+  min-height: 70px; /* keeps the layout from jumping when the prompt changes */
+  margin-top: 1rem;
+}
+
+/* The slider is drawn at full size (500 px) where it fits and shrinks to --fit on smaller
+   windows, so it is always fully visible together with the prompt and the Next button. */
+.morph-trial__stage,
+.practice-slider {
+  /* ~300px of height go to the progress bar, prompt, countdown and Next button. */
+  --fit: max(220px, min(calc(100vw - 40px), calc(100vh - 300px)));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+/* Pilot mode: identity under the slider. */
+.identity-label {
+  margin-top: 6px;
+  text-align: center;
+  font:
+    600 15px ui-monospace,
+    monospace;
+  color: #6f42c1;
+}
+
+.morph-trial__countdown {
+  min-height: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+/* --- Circular slider (src/ui/circular-slider.ts) --------------------------------- */
+.circular-slider {
+  position: relative;
+  max-width: var(--fit, 100%);
+  aspect-ratio: 1;
+  height: auto;
+  margin: 0 auto;
+  user-select: none;
+  touch-action: none;
+  outline: none;
+}
+
+.circular-slider__disk {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circular-slider__ring {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible; /* the handle is larger than the ring */
+}
+
+.circular-slider.is-interactive .circular-slider__handle {
+  cursor: grab;
+}
+
+.circular-slider:focus-visible .circular-slider__handle {
+  stroke: #2c3e50;
+  stroke-width: 3;
+}
+
+/* Debug "Reveal": frame numbers around the ring. */
+.circular-slider__tick {
+  font:
+    600 13px ui-monospace,
+    monospace;
+  fill: #c0392b;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+/* --- Practice page (src/timeline/instructions.ts) ------------------------------- */
+.practice-slider__hint {
+  max-width: 480px;
+  margin: 12px auto 0;
+  text-align: center;
+}
+
+/* --- Debug "Reveal" panel under the slider (debug mode only) ---------------------- */
+.debug-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.debug-caption {
+  font:
+    12px/1.6 ui-monospace,
+    monospace;
+  color: #c0392b;
+  text-align: center;
+}
+
+.morph-line {
+  display: block;
+}
+
+.morph-line__axis {
+  stroke: #9aa0a6;
+  stroke-width: 2;
+}
+
+.morph-line__studied {
+  fill: rgba(16, 152, 247, 0.12);
+}
+
+.morph-line__answer {
+  fill: none;
+  stroke: #d85a30;
+  stroke-width: 2.5;
+}
+
+.morph-line__current {
+  fill: #1098f7;
+}
+
+.morph-line__end {
+  font:
+    600 11px system-ui,
+    sans-serif;
+  fill: #3d3d3a;
+}
+/* --- Debugging -------------------------------------------------------------------- */
+.dev-overlay {
+  position: fixed;
+  right: 8px;
+  bottom: 8px;
+  z-index: 9999;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(220, 53, 69, 0.9);
+  color: #fff;
+  font:
+    12px/1.6 ui-monospace,
+    monospace;
+  pointer-events: none;
+}
+
+.bias-report {
+  text-align: left;
+}
+
+.bias-report__note {
+  color: #6c757d;
+  font-size: 0.9rem;
+  max-width: 70ch;
+}
+
+.bias-report__table {
+  width: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.bias-report__table .num {
+  text-align: right;
+}
+
+.bias-report summary {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.bias-report__overview {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.bias-board {
+  margin: 0;
+}
+
+.bias-board svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.bias-board__square {
+  fill: #fff;
+  stroke: #9aa0a6;
+}
+
+.bias-board__grid line {
+  stroke: #e6e9ee;
+  stroke-width: 1;
+}
+
+.bias-board__axis {
+  stroke: #c3c8cf;
+  stroke-width: 1;
+}
+
+.bias-board__corner {
+  font:
+    600 13px system-ui,
+    sans-serif;
+  fill: #3d3d3a;
+}
+
+.bias-board__label {
+  font:
+    12px system-ui,
+    sans-serif;
+  fill: #3d3d3a;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+.bias-board__dot {
+  opacity: 0.35;
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+.bias-board__dot.is-outside {
+  opacity: 0.6;
+}
+
+.bias-board__dot:hover {
+  opacity: 1;
+}
+
+.bias-board__origin {
+  fill: #fff;
+  stroke: #3d3d3a;
+  stroke-width: 2;
+}
+
+.bias-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.9rem;
+  color: #3d3d3a;
+  margin-bottom: 4px;
+}
+
+.bias-legend__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bias-legend__swatch {
+  width: 20px;
+  height: 0;
+  border-top: 3px solid var(--swatch);
+}
+
+.bias-legend__swatch--dashed {
+  border-top-style: dashed;
+}
+
+.bias-legend__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #9aa0a6;
+  opacity: 0.6;
+}
+
+/* The results phase is wider than the normal text pages. */
+.form-page:has(.results-page) {
+  max-width: 900px;
+}
+
+/* Per-condition plots on the results page (src/ui/bias-plots.ts). */
+.cond-plots {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), minmax(0, 368px));
+  gap: 4px 32px;
+  margin: 1rem 0 0.5rem;
+}
+
+.cond-plots__head {
+  font-weight: 600;
+  border-bottom: 3px solid var(--group);
+  padding-bottom: 2px;
+}
+
+.cond-plots__head span,
+.cond-plots__row-title span {
+  font-weight: 400;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.cond-plots__row-title {
+  grid-column: 1 / -1;
+  margin-top: 0.75rem;
+}
+
+.cond-plots__cell {
+  margin: 0;
+}
+
+.cond-plots__cell svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.cond-plots__label {
+  font:
+    9px ui-monospace,
+    monospace;
+  fill: #3d3d3a;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 2.5px;
+  pointer-events: none;
+}
+
+.cond-plots__band {
+  fill: rgba(16, 152, 247, 0.08);
+}
+
+.cond-plots__point:hover circle {
+  stroke-width: 3;
+}
+
+/* Shift arrows overlap a lot: semi-transparent, solid while hovered. */
+.cond-plots__vector {
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+
+.cond-plots__vector:hover {
+  opacity: 1;
+}
+
+.cond-plots__vector:hover line {
+  stroke-width: 3;
+}
+
+.debug-data {
+  max-height: 70vh;
+  overflow: auto;
+  text-align: left;
+  font-size: 12px;
+}
+
+/* Stable debug reveal layout: reserve space before the controls become visible.
+   Visibility keeps hidden controls unfocusable without changing the trial height. */
+.morph-trial .debug-panel {
+  box-sizing: border-box;
+  height: 150px;
+  min-height: 150px;
+  width: min(500px, calc(100vw - 40px));
+  overflow: auto;
+  flex-shrink: 0;
+}
+.morph-trial .debug-reveal[hidden] {
+  display: inline-block !important;
+  visibility: hidden;
+}
+.morph-trial .debug-caption { flex-shrink: 0; }
+
+/* Countdown text and its empty retention slot must occupy equal height. */
+.morph-trial__countdown, .morph2d-trial__countdown {
+  min-height: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  flex-shrink: 0;
+}
+
+.morph-trial:has(.debug-panel) .morph-trial__stage {
+  --fit: max(220px, min(calc(100vw - 40px), calc(100vh - 450px)));
+}
+
+/* Hide the pointer throughout observation, including the retention interval.
+   Scoped to the live trial: removing the trial also restores the normal cursor. */
+body:has(.morph-trial.is-observing),
+body:has(.morph-trial.is-observing) * {
+  cursor: none !important;
+}
+
+/* Practice feedback: preserve layout while revealing the two shapes in sequence. */
+.pain-practice-feedback__shapes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(12px, 3vw, 24px);
+  max-width: 520px;
+  margin: 24px auto;
+  text-align: center;
+}
+.pain-practice-feedback__shapes figure { margin: 0; min-width: 0; }
+.pain-practice-feedback__shapes img { width: 100%; max-width: 240px; height: auto; }
+.pain-practice-feedback__target,
+.pain-practice-feedback__response,
+.pain-practice-feedback__message { opacity: 0; }
+.pain-practice-feedback.is-revealing .pain-practice-feedback__target {
+  animation: pain-feedback-reveal 500ms ease both;
+}
+.pain-practice-feedback.is-revealing .pain-practice-feedback__response {
+  animation: pain-feedback-reveal 500ms ease 1000ms both;
+}
+.pain-practice-feedback.is-revealing .pain-practice-feedback__message {
+  animation: pain-feedback-reveal 500ms ease 1500ms both;
+}
+@keyframes pain-feedback-reveal { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .pain-practice-feedback.is-revealing .pain-practice-feedback__target,
+  .pain-practice-feedback.is-revealing .pain-practice-feedback__response,
+  .pain-practice-feedback.is-revealing .pain-practice-feedback__message {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* Tutorial-only invitation to move the circular slider in either direction. */
+.practice-slider__arrows {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  color: #1098f7;
+  pointer-events: none;
+  opacity: 0;
+}
+.practice-slider__arrows > path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.3;
+  marker-end: url(#practice-direction-arrow);
+}
+.practice-slider.is-prompting .practice-slider__arrows { opacity: 1; }
+.practice-slider.is-prompting .circular-slider__handle {
+  animation: pain-practice-knob-pulse 1.2s ease-in-out infinite;
+}
+@keyframes pain-practice-knob-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .practice-slider.is-prompting .circular-slider__handle { animation: none; }
+}

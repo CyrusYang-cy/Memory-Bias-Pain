@@ -1,0 +1,213 @@
+<!--
+  Post-task survey. Field names are the column names in the saved data
+  (survey row → response.<name>).
+
+  Validation comes from the HTML attributes (required, minlength, min/max) and is shown
+  live as the participant types (src/ui/form-validation.ts). Custom messages:
+  data-msg-required, data-msg-minlength, data-msg-range, data-msg-pattern.
+-->
+<div class="page">
+  <div class="mb-4">
+    <label class="form-label" for="whatTested">
+      In one or two sentences, what did you think we were testing?
+    </label>
+    <textarea
+      class="form-control"
+      id="whatTested"
+      name="whatTested"
+      rows="3"
+      required
+      minlength="5"
+    ></textarea>
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" for="estimatedPerformance">
+      How well do you think you did, out of 100% (with 1 being terrible, and 100 being perfect)?
+    </label>
+    <input
+      class="form-control"
+      id="estimatedPerformance"
+      name="estimatedPerformance"
+      type="number"
+      min="1"
+      max="100"
+      step="1"
+      required
+    />
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" for="strategies">
+      In one or two sentences, did you use any particular strategies?
+    </label>
+    <textarea
+      class="form-control"
+      id="strategies"
+      name="strategies"
+      rows="3"
+      required
+      minlength="5"
+    ></textarea>
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" for="interruption">
+      Did you interrupt your completion of the survey in any way (e.g. by switching to other windows
+      or tabs on your computer, or by refreshing the task page)? (Your work will still be accepted
+      even if you answer "Yes" here. Please be honest! Thanks!)
+    </label>
+    <select
+      class="form-select"
+      id="interruption"
+      name="interruption"
+      required
+      data-msg-required="Please select a valid answer from the dropdown list."
+    >
+      <option value=""></option>
+      <option>Yes, I interrupted the task.</option>
+      <option>No, I did not interrupt the task.</option>
+    </select>
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" for="participatedBefore">
+      Have you ever participated in this study before? (Your work will still be accepted even if you
+      answer "Yes" here. Please be honest! Thanks!)
+    </label>
+    <select
+      class="form-select"
+      id="participatedBefore"
+      name="participatedBefore"
+      required
+      data-msg-required="Please select a valid answer from the dropdown list."
+    >
+      <option value=""></option>
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" for="issues">
+      Was any part of the procedure unclear? Did you have any problems completing the task? Did you
+      encounter any technical difficulties? (Your work will be accepted regardless of your answer.
+      Please be honest! Thanks!)
+    </label>
+    <textarea
+      class="form-control"
+      id="issues"
+      name="issues"
+      rows="3"
+      required
+      minlength="2"
+    ></textarea>
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" for="seriousness">
+      We know it is generally difficult to stay focused in these online experiments, especially when
+      they take this long. On a scale of 1-100 (with 1 being very distracted, and 100 being very
+      focused), how well did you pay attention to the experiment? (This will not affect whether you
+      receive credit or compensation.)
+    </label>
+    <input
+      class="form-control"
+      id="seriousness"
+      name="seriousness"
+      type="number"
+      min="1"
+      max="100"
+      step="1"
+      required
+    />
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" for="comments">
+      Do you have any other comments you would like to add? Feel free to tell us whatever you
+      thought about the task, or any problems you might have encountered (that you didn't already
+      mention above).
+    </label>
+    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+  </div>
+
+  <h2 class="h3 mt-5 mb-4">Demographics</h2>
+
+  <div class="mb-4">
+    <label class="form-label" for="age">What is your age?</label>
+    <input
+      class="form-control"
+      id="age"
+      name="age"
+      type="number"
+      min="18"
+      max="110"
+      step="1"
+      required
+      data-msg-required="Please enter your age"
+      data-msg-range="Please enter a valid adult age"
+    />
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" for="race">
+      What is your race? You may select more than one option using the checkboxes. You can also
+      search for your race by typing into the box.
+    </label>
+    <select
+      class="form-select"
+      id="race"
+      name="race"
+      multiple
+      required
+      data-enhance="multiselect"
+      data-msg-required="Please select at least one race"
+    >
+      <option>Black/African American</option>
+      <option>East Asian</option>
+      <option>Latinx/a/o or Hispanic</option>
+      <option>Middle Eastern</option>
+      <option>Native American/American Indian</option>
+      <option>Native Hawaiian or Other Pacific Islander</option>
+      <option>South Asian</option>
+      <option>Southeast Asian</option>
+      <option>White</option>
+      <option>Race/ethnicity not listed</option>
+      <option>Prefer not to say</option>
+    </select>
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" for="sex">
+      What is your sex? Please select the most appropriate option for you.
+    </label>
+    <select
+      class="form-select"
+      id="sex"
+      name="sex"
+      required
+      data-msg-required="Please select your sex"
+    >
+      <option value=""></option>
+      <option>Female</option>
+      <option>Male</option>
+      <option>Intersex</option>
+      <option>Prefer not to say</option>
+    </select>
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" for="gender">What is your gender?</label>
+    <input
+      class="form-control"
+      id="gender"
+      name="gender"
+      type="text"
+      minlength="2"
+      maxlength="100"
+      required
+      data-msg-required="Please enter your self-identified gender"
+    />
+  </div>
+</div>

@@ -1,0 +1,29 @@
+{
+  "title": "Pain expression morphs",
+  "faces_folder": "pain_shine_rgba/images",
+  "extension": ".png",
+  "frames": 61,
+  "ends": [
+    "Sample 01",
+    "Sample 11"
+  ],
+  "studied_frames": [
+    15,
+    45
+  ],
+  "groups": {
+    "Pain": [
+      "BM51_PMS7",
+      "DPD_1_BM12_p5b",
+      "DPD_1_BM29_p4",
+      "DPD_1_WM10_p5",
+      "DPD_1_WM11_p4",
+      "V1+target12+am+o+pms2",
+      "V1+target3+wf+l+km4"
+    ]
+  },
+  "practice": {
+    "folder": "examples/square_to_circle",
+    "frames": 61
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "images": 427,
+  "identities": 7,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "target_face_height": 760,
+  "center": [
+    512,
+    512
+  ],
+  "grayscale_all": true,
+  "feathered_transparency": true,
+  "transform_fixed_per_identity": true,
+  "target_mean_Y": 0.12034558759979418,
+  "target_std_Y": 0.039918837279671104,
+  "maximum_mean_error": 1.4147967382166504e-05,
+  "maximum_sd_error": 2.9999030718950992e-05,
+  "height_range": [
+    760,
+    761
+  ]
+}

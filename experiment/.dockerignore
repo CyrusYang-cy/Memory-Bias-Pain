@@ -1,0 +1,18 @@
+**/node_modules
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+**/.DS_Store
+frontend/dist
+legacy
+data
+*.db
+.env
+*.env
+.git
+.claude
+# Not used by the running experiment
+stimuli/latents
+stimuli/latents_120
+stimuli/legacy-jpg

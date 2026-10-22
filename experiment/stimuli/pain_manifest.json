@@ -1,0 +1,2238 @@
+{
+  "source_dataset": "face-morphing-tutorial/output/pain_faces_morph_61",
+  "frames_per_identity": 61,
+  "anchor_frames": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    30,
+    36,
+    42,
+    48,
+    54,
+    60
+  ],
+  "pixel_transform": "none; byte-identical PNG copies",
+  "identities": [
+    {
+      "id": "BM51_PMS7",
+      "outline_mode": "upper-skin"
+    },
+    {
+      "id": "DPD_1_BM12_p5b",
+      "outline_mode": "hairline"
+    },
+    {
+      "id": "DPD_1_BM29_p4",
+      "outline_mode": "upper-skin"
+    },
+    {
+      "id": "DPD_1_WM10_p5",
+      "outline_mode": "upper-skin"
+    },
+    {
+      "id": "DPD_1_WM11_p4",
+      "outline_mode": "hairline"
+    },
+    {
+      "id": "V1+target12+am+o+pms2",
+      "outline_mode": "upper-skin"
+    },
+    {
+      "id": "V1+target3+wf+l+km4",
+      "outline_mode": "upper-skin"
+    }
+  ],
+  "excluded_incomplete_identities": {
+    "V1_LF3_SR2_PMS7": {
+      "available": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "missing": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ]
+    },
+    "V1_WF27_SR2_PMS14": {
+      "available": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "missing": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ]
+    },
+    "V2_BF4_SR5_PMS7": {
+      "available": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "missing": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ]
+    }
+  },
+  "files": [
+    {
+      "source": "BM51_PMS7/morph/frame_0000.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/0.png",
+      "sha256": "99e1a8d01f7ebb672d5d2ef96ec989d9ecdabaf72281004e4aab8e44a1a5f44d"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0001.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/1.png",
+      "sha256": "a095f866a68b08f927842181f809c49cd2a682df946e7d117e5fe1829735f4ef"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0002.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/2.png",
+      "sha256": "852fd9521529ea78b3f2691d3ebccbc1fe397450d794ac0984baca748af95c7c"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0003.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/3.png",
+      "sha256": "054b562590df46b07031984b60caf676ec6d271dcdd5207ffdc6ed324cd013d0"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0004.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/4.png",
+      "sha256": "8c45226d4a0c9501175df311014b83b01d118f629019064cae9bf47c6ee9fd1e"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0005.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/5.png",
+      "sha256": "e7564a3c4efaf90a98b47fcdbcd18a15d8936e75509ce9b5326fb1e816f8697f"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0006.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/6.png",
+      "sha256": "0f05670a6ec0adb00d93a59b864cf0c7c84988a2b171a8176f7b1fa069178403"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0007.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/7.png",
+      "sha256": "1b5c71bccb78e56605ee70684ce5e4ded55a4d93b0bea7f44780ba3e9648c5bc"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0008.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/8.png",
+      "sha256": "379b9ce161b9ae0b52edad948a583e8595123748db00d391d325ed2017e096f4"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0009.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/9.png",
+      "sha256": "de1efeb88504eef78bc27433f0b7b012215bd16d46979b76b04d366bdac768a5"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0010.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/10.png",
+      "sha256": "fc6e73d64e7f26fff34cd891ae3c92c04b493f83bd301d8544bf7fe422ea2815"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0011.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/11.png",
+      "sha256": "58555255081de5a9ea242e4db1987a4546284fcb764ecd15ca5ad3857feabe72"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0012.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/12.png",
+      "sha256": "5263be46cfd69616ddbb9c25ea7f86fb45a15f47a8df15cf2718e05b2458a743"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0013.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/13.png",
+      "sha256": "69b336489f39dee41d95f0bad8a6376234602ce0461a506236bb4027356fcc12"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0014.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/14.png",
+      "sha256": "254b69473f12253df5bbc4d2fb5611d01cbd6e562b474fd12fb117694b484e41"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0015.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/15.png",
+      "sha256": "50a41798aa71e3d6314860cdec5f7d92bc5466aeaacc2d62986b95784275d392"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0016.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/16.png",
+      "sha256": "6edd66c0771b0d3a349b61e4ea2342d9ede839d900ac7dccd35f71c651ddace3"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0017.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/17.png",
+      "sha256": "aebe6b3035d5eaf72d9ad9f62f50851299ec1ce5e1462f1c2e22df44525c9bd5"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0018.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/18.png",
+      "sha256": "23fd6ea3ae49b1f05edd9f87b72c374a14efae72582856760605f6d198974339"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0019.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/19.png",
+      "sha256": "e32bb19ac0043fce86acb0f4348069620c783cd103772c4c3d6171de495e9ce5"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0020.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/20.png",
+      "sha256": "df44ff76a79f2c3fc4fef49033cdefd7542ca37680d322ab3c04945b2d8558f8"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0021.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/21.png",
+      "sha256": "8baee9520ee426398ea3dd009d8a930c951bba2d7ef1cec0b9a54e62f3ed7e3e"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0022.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/22.png",
+      "sha256": "d383b1ba781ef035385065a58bae450ad7343154675f14d47373c01f87c74546"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0023.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/23.png",
+      "sha256": "1a543bd4686243ea585742c4d46175052ccb2128a8b0fdeb83c5bd1ce5ccf5a6"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0024.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/24.png",
+      "sha256": "4f15d836791fe8f252677e012cfa8016a67dbf31664196b07a0f455497aa1ea1"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0025.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/25.png",
+      "sha256": "7042a8b03457a713e65e9c09b4c89c012a004fa3dea22875b071bea482f6a0b7"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0026.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/26.png",
+      "sha256": "da99fe8622c7a60fa410804840f8e1f6adfc02c6e2fb38f6fb838e0877bc99c4"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0027.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/27.png",
+      "sha256": "bb4dff7b738d7d420b1e3800846c698b4beac484300bf4223e6991495da56834"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0028.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/28.png",
+      "sha256": "ece7eb8a74236f92c5f2849da38cfe3c0f94e444ba00eefa4db639f423353c27"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0029.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/29.png",
+      "sha256": "f71f98af27c7e7c1d507947bcb6f32ce8faa8a9d356d5deb029382584fa7b314"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0030.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/30.png",
+      "sha256": "10aa5d45146c45a3645d220078f2d37d8614b4b4798cc5480d2ff97d2beaa362"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0031.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/31.png",
+      "sha256": "cb55efcb3ebcc1bc7e99f274f48aad5487f01f394900c7bbbb47fa632553a4ae"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0032.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/32.png",
+      "sha256": "dec51490c98ca69c2a19dcfca9be8b6b6857ccc1715a315a6fd2294d3524770f"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0033.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/33.png",
+      "sha256": "3b933700f92cab1c42a77dfbdbaf7fe679d55a06bc09f6136f6895c418c861bb"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0034.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/34.png",
+      "sha256": "065042b8de1e1c9860575867226f2c6f26201ad970b7584d6799dabbc7f437c8"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0035.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/35.png",
+      "sha256": "8dfae57c23bca24b1b598ee76f1a283ceece304f855b19b608dfb6865fade6cc"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0036.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/36.png",
+      "sha256": "31abc31f863ad3433138830880a9de44e8a6e35f5677abd76020ab29486f7f66"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0037.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/37.png",
+      "sha256": "3745bd179e562f9fe68945dbdd05352588088efa53fb57660b12cc9a7bed2cf9"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0038.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/38.png",
+      "sha256": "ed588833e50356699e0e2a74943c1c4def1c28081b10fda974d1fb02943efb33"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0039.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/39.png",
+      "sha256": "282332051a5d55fa6612ed2b3d14a99f3fb44475f78b6cef2c8d66eaf7297d18"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0040.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/40.png",
+      "sha256": "1fd7a8757faab1cc4f37d1ed9aef38cf38b669f08b94794e7d0c1a5c04b79d3b"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0041.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/41.png",
+      "sha256": "995058a058adca6d3003a95b90fab0f399e6b98b7f5f71ce8a46e0905ba619b4"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0042.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/42.png",
+      "sha256": "d687bbab5a6d24f6d724d0ca0bdcfb97861e4b6a34c24ff30768dce975fbf759"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0043.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/43.png",
+      "sha256": "56bb37b83a50a845c7002b4bda8e5cd967957f03533beb5c33d7d8c2dac1a954"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0044.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/44.png",
+      "sha256": "9dd86b9d1592e94ae116b560f3734e033977c55af770097f56a695d10814c5bb"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0045.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/45.png",
+      "sha256": "ec08e55e92a170bf3be94277fe76e6342ea7c32e2f066d79f802b130449d0415"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0046.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/46.png",
+      "sha256": "f3fb0debf9520e8be9dafd157090f88b6282b735ece6cf59dbf28cc5936394d0"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0047.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/47.png",
+      "sha256": "5ff53e4319f2ef11c981119dccef11889d6210c4184d8449ede4ea80fcc816c4"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0048.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/48.png",
+      "sha256": "7b8827f0d4da5fc3678dcc23022c64e79bd0e411b97e63a42539f65f345f8d39"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0049.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/49.png",
+      "sha256": "f7eda8f92ebf144cda1ed26ee021d94ea9810e65795c5e426599ab8c7a6ce35b"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0050.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/50.png",
+      "sha256": "123045d084d276e5357324ee171ad40bb33c38f4cceafc5175d39a507d317703"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0051.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/51.png",
+      "sha256": "51c194274fb506084650680f4f0e0b404d4446009d876d6a24336985306e6058"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0052.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/52.png",
+      "sha256": "24e5104521d534f8abcc32ebcffd0eea6b01acc78838bd8146d60f4fb5669c5c"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0053.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/53.png",
+      "sha256": "18a18de410151bd1a7027c3924cc46b166bd658cdb66b469936dab68fb77f322"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0054.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/54.png",
+      "sha256": "fb7037196b63aaa6a93ea077fee338b80d1538e4000d6ea2267c52f1cbcf93da"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0055.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/55.png",
+      "sha256": "f5f61914f992ee8ee3446acb85e683ee9363ab5dca1322106ec307595080cb79"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0056.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/56.png",
+      "sha256": "af5e6068082d9f28461cab7906d541eef128267160d7fa8688f882a15f200a73"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0057.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/57.png",
+      "sha256": "50bf899c63dd25aafe8dca3442e45e1df926e99341b974f5b02fc33ee1272435"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0058.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/58.png",
+      "sha256": "4dc8ba463833b4803a6d2b78b46374a6406161aee979f53eae5d230122a1e474"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0059.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/59.png",
+      "sha256": "f25470763b1476e458a3f9363217183161d5563b0994f9475701f25701e45f4c"
+    },
+    {
+      "source": "BM51_PMS7/morph/frame_0060.png",
+      "destination": "pain_faces/Pain/BM51_PMS7/60.png",
+      "sha256": "a29694739ed35aeeab9a9087bc422e6b141d9c33fb2fcd798880f927387cf6aa"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0000.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/0.png",
+      "sha256": "99db9219b4f74e313531afa44800f46a80a429ce446f1cc43aa61fa2821c9332"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0001.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/1.png",
+      "sha256": "0d8902ea65d5c5e33621b70d9aec568c07b9c1eb376f64fd900660f44fc367b7"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0002.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/2.png",
+      "sha256": "de001e269e133d531b99346cd9121ebb17ce3a175cbfcebfd62e7f6a9abb43e3"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0003.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/3.png",
+      "sha256": "5404629e82186316260857ad668fc617c15217d50d3e3285c521ec80b45e0ca3"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0004.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/4.png",
+      "sha256": "c51d4919019717e085cd55410b59dc886737fa562aa5c2abbfdba15bddc6a590"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0005.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/5.png",
+      "sha256": "2bc948108449b3e967fb797e9d7a04f2ccd44f8744f1d21d02940f619b8bdd32"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0006.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/6.png",
+      "sha256": "817b108e0dd8ae279be96e4f333edfbdf73820491c5dcb23dd289b77dddaccf4"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0007.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/7.png",
+      "sha256": "11d521d01f727495cbd4083fc0226252aefe15fd9b8d6e4e9befaa332ef7cc7d"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0008.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/8.png",
+      "sha256": "d1d59ea124f2b7e0f11da9af483d9a8aef19a34278179e94ae771511dc412f43"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0009.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/9.png",
+      "sha256": "5cd8b835f920aa39167a95e668dd1fcabe50ef5fe8de6ca2f070ffbdd2521e97"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0010.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/10.png",
+      "sha256": "737e812d03b2d679a2fd83b7a8ddb92004de3c794a6a858b4de12809e45c4759"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0011.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/11.png",
+      "sha256": "66169afb0d7c709d0340ab0de5c87d4d0528d764b501f881649150215474dfe1"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0012.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/12.png",
+      "sha256": "56122f79b411ccc53cae35c0472ef054dcde1a5ec4c90ef6ee70784878c930e4"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0013.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/13.png",
+      "sha256": "a72703d3ccf0e700c642b692496ff2ea80443025485e98cf9872612cea57e124"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0014.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/14.png",
+      "sha256": "dc377db75debc7d93e0a41b9f40faf741e6d8ea9ec52aa503f682a391c0a5ed4"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0015.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/15.png",
+      "sha256": "818d9e037090852b20f30655dc1455f6caf71dcb7a06b6b4e266f0707fa60747"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0016.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/16.png",
+      "sha256": "1421776a48e5666145ecf6204a90e5bfc1154a0a5c142bcbcbbd9ecf76ebb004"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0017.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/17.png",
+      "sha256": "e904aec1059ee037be859176afd84d14e66ac07adb3e12e8e7bfe6340ee83867"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0018.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/18.png",
+      "sha256": "fe6843daab5bf4573ae0611d7b1cbffad5efba86b99b6984586a1d380db3de61"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0019.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/19.png",
+      "sha256": "237ea1aa0cb3799795665908d1386f3892bc46dbc6657762706a3a7af71bd6d6"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0020.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/20.png",
+      "sha256": "138ab864e535f68b88afccee0f4e0797873292fc9459362b389d105e523c74e6"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0021.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/21.png",
+      "sha256": "ce570281b99b274d3031ea8604d3b5678b24a55795962a8ba2a3037d2713e86c"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0022.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/22.png",
+      "sha256": "e9404ed54417158fd4a440373d0bb82c636d0396e11405247b067e786a727866"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0023.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/23.png",
+      "sha256": "efdef9830fda35be17179f7d6327014c8257ae7252c8b3d9e7e8fbcc777cf3ac"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0024.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/24.png",
+      "sha256": "4ec24aa2c2f66ed0c51cf83139f88d1ea63a74b3ee4311d714de5dae140a5bfd"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0025.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/25.png",
+      "sha256": "446c8bdb4774615ffa78f538cdd7c57ce3c36e853b470cfba90fe72f35555c33"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0026.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/26.png",
+      "sha256": "2b3301b7525f47dc0332e53c4a4138383f9f4fe837c7c65ac38acfa12aacfb6e"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0027.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/27.png",
+      "sha256": "dfab752277cb2143a8448858263dc2a479c1b5b1498345297b80094cc52e1fbf"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0028.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/28.png",
+      "sha256": "acad309bfd1c60a5f93967c854a034e3eb4b2d0d2c1a0d4246b74819595d9e9e"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0029.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/29.png",
+      "sha256": "d79341d1f9b90176e8bfcbde4a08788ffa04d3e009abec2ba9db32356910a0f0"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0030.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/30.png",
+      "sha256": "ca964fff8dedfce02b98f89fbf7bbfaefebb3a0cd752985bd69caf75058d737f"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0031.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/31.png",
+      "sha256": "35eef4c249a2c6084d442f2e983be337df368617941b38f23cd0fe9833cc05fa"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0032.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/32.png",
+      "sha256": "854eda54b905ecaf103e78cc9e9687efcb5cb735c33f833f5f71c644acb6e2ce"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0033.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/33.png",
+      "sha256": "da98c1ddd85bece12c38b4c8ffa0689a5a907cc1c5ad1fe3e9b414c46bf9336e"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0034.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/34.png",
+      "sha256": "853038dbd4b2d8fb5e16a940c2835aac5a7bbc3b200f7a17b5dc854e6d66866f"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0035.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/35.png",
+      "sha256": "e5e6c3fd146e05bec1e33dfcdd4a05aec38fd16469c3ed34a4a600f3563c0044"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0036.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/36.png",
+      "sha256": "848bfa87c6d8041840cac3bddfd7fbdfded3d5db8cb45c242236b731097e0e96"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0037.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/37.png",
+      "sha256": "af6b26d14bf01fe163413401ebde538c02d6ab74e0a331d02755368ba9a162c4"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0038.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/38.png",
+      "sha256": "4280c14db76f6203c7c64a6edad2ce091e8e80b7c68af0215c15d656a77ed5eb"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0039.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/39.png",
+      "sha256": "37a4ed13e848b84cf788c2e0bea7ffaf356202cc3ba912a31cff056be3b87961"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0040.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/40.png",
+      "sha256": "344b477b921ab519bd1396e3c05a5ce2a3d7f752c0e5477f8c253d1c7efcc497"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0041.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/41.png",
+      "sha256": "ca977cad11aeab4ea38b07d0e92183bef5d531f44c55ea8c8e5f8d1b2fecb5e1"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0042.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/42.png",
+      "sha256": "a1541532a84c717e1b7c1319e58b5a401e4ea9bdb8bac10c6adcacc801d0ca8d"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0043.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/43.png",
+      "sha256": "00d96483122638476ef82c57413ab3ae01ce5e8bd0105afced8a496ae3dd0f3f"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0044.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/44.png",
+      "sha256": "4439e5164d9c824c9aa23f60d4b42d91035b4c9f3bb5af757fd07329a931051e"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0045.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/45.png",
+      "sha256": "8090fc23645b2b6d5015b6f8413f8dcd909bf773aecac133ab7d927e607eaa80"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0046.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/46.png",
+      "sha256": "05db9f2ec5eaeedda2de18ea6478ab1860b722f80af291f0d36a9d24adcc3e87"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0047.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/47.png",
+      "sha256": "af93201bfce07ec696d27b97eac8fd224f3e2919b8605261194b0a052e43cb51"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0048.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/48.png",
+      "sha256": "439282b044e36f3bb158a0b73fbc170f13b816d985356dfe2d20aea9a99ba208"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0049.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/49.png",
+      "sha256": "4cd2e126a9a9914d0f079ef314b75fb33952a27c2506e6eb8f9a3dde59d74c3a"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0050.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/50.png",
+      "sha256": "659ab9bd145dd8a48eac59c8e0da02d20a561202f10317f00fb0f5e11820f2f1"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0051.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/51.png",
+      "sha256": "c2538c8023831d4625d92b8f6dd05734c544f3e61b472ea986f8cd1495d96ae4"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0052.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/52.png",
+      "sha256": "27fae47df73dc1646cbc088030574264511101e7aa491f48fb87e85e38a6f8c7"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0053.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/53.png",
+      "sha256": "21d7a1f6eb2c91eb3eb4526755d942d76ff181904506aa5403c61ede9ad9ace3"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0054.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/54.png",
+      "sha256": "12261476959c9f72cbe9a56dc4442aebef8ec6ddd2b98660ff47a953d0d99cec"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0055.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/55.png",
+      "sha256": "7d835d65d294dcc3677ad594488e2fbe012bd33e8610a84068628a79e683e5f3"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0056.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/56.png",
+      "sha256": "bb32ae37f21b2981039eb5704056eeebaa8839d19eed3399a89456dfdcb7176d"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0057.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/57.png",
+      "sha256": "99429f947c99020a9d8610e462282fceed19dfb34e96962dc7f958fbd7ad73b1"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0058.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/58.png",
+      "sha256": "1155f2cfbddc1079eee631801ce5540062a7f15a4076e1ee833b77185604ac31"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0059.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/59.png",
+      "sha256": "09ffc519a4783fb530510f3f2b7daee07bbc296eb2d8f5ea47d30870a9617b0d"
+    },
+    {
+      "source": "DPD_1_BM12_p5b/morph/frame_0060.png",
+      "destination": "pain_faces/Pain/DPD_1_BM12_p5b/60.png",
+      "sha256": "6824ea1aa4c9bbc504c9d002079b389f8f66f487c0661a7d56616f2e145c0500"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0000.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/0.png",
+      "sha256": "03f8defd8f74ab41d7a404fb6f0bd1b92ca574405c0e62a6e17813645239ee60"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0001.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/1.png",
+      "sha256": "2cfb6ef495207759b75342fe5f4c2d55f744a3631e4cd923354c8fa9144e8b5d"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0002.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/2.png",
+      "sha256": "758218c975815d1e63df52d6372a2b3742264b6303f7ab95376f3a9d9078960e"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0003.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/3.png",
+      "sha256": "a3b536f319c77edfb6fdc1ec1ef0e6d5e6c4c63b9307fc2ec7d89750835b691f"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0004.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/4.png",
+      "sha256": "d9b53c1570ee4519476d256c82be5f21630682950bd8e4e83f78cd411cf55ac2"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0005.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/5.png",
+      "sha256": "7e2cc61f755c4b25849e5552c1813ca7025cd82d07d9e5994b7ec10dd08f8b29"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0006.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/6.png",
+      "sha256": "236762f0132ce8baf9a34a4fc84ad3083c7379daf07ebae062c96583283943df"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0007.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/7.png",
+      "sha256": "e88e1d0c7f7deab3bb8030ab6854fa391a70bc6eecde76c912385daf4c949b8a"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0008.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/8.png",
+      "sha256": "0c04865355824b27cd4322917700f85c5466093b88fbe05d5901d0dc89282b03"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0009.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/9.png",
+      "sha256": "37045661df5be04e33c4bb8bb5aa58818a16c32abee962f87d42f2d9dcec2568"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0010.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/10.png",
+      "sha256": "2fcb5f009d115a55688f32a7472e8e8b2d35bbdd76497bb1599987ab10fc4363"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0011.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/11.png",
+      "sha256": "64268aae8049866a19b054d582829ffa998a83558e237b91e0900165b8094376"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0012.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/12.png",
+      "sha256": "45ac7fe8556bc74d74d9976f871e64abbb65ca62f92b6de9e450dcd3db77b402"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0013.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/13.png",
+      "sha256": "b16153105c5c80dde807368d5b23a4b0fff60a01985a1dca15feb56d8b4e3bc4"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0014.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/14.png",
+      "sha256": "c96898859213cc414851d274ca7aa41bad1824d4191a19cd6cbc10c3eaaec037"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0015.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/15.png",
+      "sha256": "abf8d0082cbc153fee4e3aa7bb39a7f1817694560560818a36eacf7a7fc370f8"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0016.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/16.png",
+      "sha256": "452ace388add30aa020c24dc42ae8a8e1691e6a3ab11f017b2fad75354a7edda"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0017.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/17.png",
+      "sha256": "77737c7fba0a06b57b5400dfc57535f0040fb2c955a41eb50e8d469737a26e09"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0018.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/18.png",
+      "sha256": "1dffbbe55dc0e01ae3b01dc102a00b2844455e082fd566df68adabc77223780f"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0019.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/19.png",
+      "sha256": "bca2299f93f2311bd42ecae10eb1c4054e1a6b3a79b5294e8803746b117464bb"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0020.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/20.png",
+      "sha256": "0223a5cdf21ef8393ae2fb103047de6c0fa9612ef3b9fce42daa4f5ceb24c1a1"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0021.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/21.png",
+      "sha256": "fefc10ed82c7a58190d558252a6c1cd23b9eee92c927792a3a4710514787e113"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0022.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/22.png",
+      "sha256": "7b6c7309a5cb52619ae38f2a266787026aa69356b74faeabde3428cfc91e2222"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0023.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/23.png",
+      "sha256": "c69359a28fa589e2e393bda4633d93b8991ac63276651760d32dbfabecf9d656"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0024.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/24.png",
+      "sha256": "cc86eb9a8bb6966988e3d312ec4f80550049c701c0e764f9ce9f6ecac70ff446"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0025.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/25.png",
+      "sha256": "ac7839822dfa3d5500cabd668b5b24cb4603d538c71c769fa64272a824fcf136"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0026.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/26.png",
+      "sha256": "4768b2953202984032b3d4ad168638ed2c5c717e8f86e448334a0faa0bc6877b"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0027.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/27.png",
+      "sha256": "f54da2c5909b738e992eda3726e9f1adddca54f74ffc769a2ec6191dfaa4a3c9"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0028.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/28.png",
+      "sha256": "5993176b2ff3a3a6bf5d2667d21c0291f8e1723c04be175984e234577498a1ce"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0029.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/29.png",
+      "sha256": "17eab217410a2a8a298c71059c02555b0c642a7386a7b883b852396c7c152a76"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0030.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/30.png",
+      "sha256": "11ac0fc9685eccc1a11fad0e876d5d71defe676a2ef447632616de0a1c3c2aa5"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0031.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/31.png",
+      "sha256": "0c9da0886a6c5a623346e46a105a2007e92d088b939cafea146546029a526e43"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0032.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/32.png",
+      "sha256": "78fcd12b56d91ac5d75d02f1824e42a1ce00814ee7746e3e8274f8cb508ad8c2"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0033.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/33.png",
+      "sha256": "b9ea7a3245cb0547667bdd9e4bf6e2b025ec20827523585d05f9d396fed40a27"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0034.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/34.png",
+      "sha256": "752e347b52f3616a6520059bf9569555e3f2cb77250ce0acc0d1ddd0fc430e64"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0035.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/35.png",
+      "sha256": "5bb60cfa2fe4a2ae6c983d1e5c3857c1c1148cebb7220dc4a1d29ffd96ed7553"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0036.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/36.png",
+      "sha256": "4cae1a3860116a0dd6c38a81562a8d7165b0205b663730f90e64aed29a0937f3"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0037.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/37.png",
+      "sha256": "f5d7382f20290a6bc19ccdd33f24a65148540f77d7a8aa16178db2a525230982"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0038.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/38.png",
+      "sha256": "094ff36e7c4674901e1b9077352888b0659f2d849a80b978b55191aa62987103"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0039.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/39.png",
+      "sha256": "04fc992de1d235aa1e7a6fdbd1a97a03a715442204e89ceaf3e86ad211c7950b"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0040.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/40.png",
+      "sha256": "86270f5d7f8e5d141db0c3e4ec8adeea080899673b224b45d3ec922c628c92c0"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0041.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/41.png",
+      "sha256": "1dfff0816e2bee3948e60e41c0d611f9755ea60b487e72c449fdd0e98b5df004"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0042.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/42.png",
+      "sha256": "447a828d2ec6e3d7171b0d6762be0d0bb9e6d5fbf7e047aee18496fd246229d8"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0043.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/43.png",
+      "sha256": "7b14a9216982550c4e791f3e9ff00602b69b5a7ffdf144497214769344cb3a83"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0044.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/44.png",
+      "sha256": "b543955ee2e68fa5486bb4420c00eda20e04d6cdf0c93f7db03e534d2e1432e9"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0045.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/45.png",
+      "sha256": "17c2e0961d940936093cb11cbee20dd130b141a2b358761626a54b0f5fae88d5"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0046.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/46.png",
+      "sha256": "e58820e1b0284f5f9832c1f41412670bc5928a4f709dfbbb6bf504d2ef3d4b03"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0047.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/47.png",
+      "sha256": "feaeb268b718869cd0fee36f500f522060cdc2f7a8b41728b41e08c78c0583fb"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0048.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/48.png",
+      "sha256": "e51d3099d0a58e28a973403fe1087bdd5413974d7627cf12fea0e47e44437078"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0049.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/49.png",
+      "sha256": "824ed77c2017da073cd6ee05e99061885db15984269227fa5ea06d807bd27869"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0050.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/50.png",
+      "sha256": "a2e2b2e97b7f3e3c725b54f0b2ce2e82d672a1ee1ff9b31a909553fa5a3d77d1"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0051.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/51.png",
+      "sha256": "a407c056702dfe7715097fe096c1266a43629f3d589852b6cc8371a2c825e2bd"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0052.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/52.png",
+      "sha256": "6dbf221b1765c3fd45000b0ad9b9ef9d014e410cd82a91720383e546c8c88d96"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0053.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/53.png",
+      "sha256": "163b6a73ac1e38225bc8c2d81ce253b0ff4bfeaa16eecaf9ef27c346e8b44ea9"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0054.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/54.png",
+      "sha256": "830b37819dca454396f61d8d9e269d7c70f1cdd525418162fab2c0fb9390b641"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0055.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/55.png",
+      "sha256": "e00df4f1a1db9f5b45c5f22510519c8857874fbe16c84ce0e67f62ada9ed1653"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0056.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/56.png",
+      "sha256": "a10148e1be26a4dfc791feb45f5f03de315b2e0b00f629a89f81fa38a5a0b58b"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0057.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/57.png",
+      "sha256": "6f96428ebc70fdb9ed52f89c5be5f25e36486873ed96e75e71be6a0cf74c83c0"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0058.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/58.png",
+      "sha256": "8717e3b4e949a762ebe5af6bf668304e5f60193a1104735d2125c819523ef64c"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0059.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/59.png",
+      "sha256": "498b1d765b11ba5ece71380b60f3f328282d3174508b31d7ea3ae30485a41e29"
+    },
+    {
+      "source": "DPD_1_BM29_p4/morph/frame_0060.png",
+      "destination": "pain_faces/Pain/DPD_1_BM29_p4/60.png",
+      "sha256": "1d64923cbf33c45dd302ee244845a1626f7e610f8e5541cf01179937437a8936"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0000.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/0.png",
+      "sha256": "df8b5b69fbabe9ea28dca46b55a730c86c8e0866f5274f53f4da4868d5c92347"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0001.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/1.png",
+      "sha256": "a957a2c2a735025b1fa5c109b20bc5439e75cc7d7054ede0868f910e293c7ece"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0002.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/2.png",
+      "sha256": "e0f602d5fe1d9dfd40058a74880f0d2aa5b1c389725fc4fff294afb014434b98"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0003.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/3.png",
+      "sha256": "acce6f8d28e229d7df0f5112e9a02878f757125b3d1d89ddcb7d5ae7f9ea7621"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0004.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/4.png",
+      "sha256": "8fb05bfc1257d4c1b0a5ae6f92570a71bf6ea6fec5cdfe58365ca3cc171ffce0"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0005.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/5.png",
+      "sha256": "b967df90946ff676ba18578d3085779ba721e17423c1f55a3c9881474bd33b5e"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0006.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/6.png",
+      "sha256": "0f053419e75352999d36181f0544d2a1eb357b8b187cb5864ddfdcf14014b49f"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0007.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/7.png",
+      "sha256": "b4fd08497c7b614b000f90dfb41e887a71049301c76532ff23b72ab2ba8b325b"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0008.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/8.png",
+      "sha256": "cd847295b5f36c8d7aec2f3bd5b341d77b1faba02d064e419477b3ad7272d833"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0009.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/9.png",
+      "sha256": "eb6f301036a4fbe31509daf1a936ac3d412972f2b096901f755e783e6af51f62"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0010.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/10.png",
+      "sha256": "c404f3b9691163971b69046026ee3f85f2a4780eec27e1dc0278738813a8bfc5"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0011.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/11.png",
+      "sha256": "249983619a21553e5d998dd196193c542335907b9e8ea9b04183e19690661f29"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0012.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/12.png",
+      "sha256": "f6d535c9cf03f6ce5bb3fff73be9970e5b6ad22afec7668a1ca01994826df572"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0013.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/13.png",
+      "sha256": "9dc11f186b875c5482a56436aee2cd5828c886147b44326084a498d720738506"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0014.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/14.png",
+      "sha256": "8528f6fd19f1a9ec07c90f1cf140a5318dd36f89ab9f4bda52ca9a8bf04dd9e0"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0015.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/15.png",
+      "sha256": "4ce71972a0415f2a21dc1c374efc9a791bbfd0ebb7695594ddb5ef53e36a010d"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0016.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/16.png",
+      "sha256": "b0d9e16e43cc4e83af389975ec29d77f411b30e03b5ce19d8f60af2a8c1605f4"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0017.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/17.png",
+      "sha256": "d78577599187d84a5f5fd2860eac3c88263305309bfd33f0be66a33b0c78093b"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0018.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/18.png",
+      "sha256": "88635090ec777ac598fd61055f21317c631ac96041933b5a656286158f3c0a70"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0019.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/19.png",
+      "sha256": "7bd505e2a5b45144710dddf9587f02a5d96e2bc2176c4d3c3085fb20ca9c3704"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0020.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/20.png",
+      "sha256": "fb5cefb0604abd33f736a17df2f5beff1d643a333b8362024c8eb7939083a157"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0021.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/21.png",
+      "sha256": "5cfa3430bb3c3cf176703612f519973476961d787bb3d993736de65c5981a6b5"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0022.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/22.png",
+      "sha256": "60accb242d45607bc0b8c4fe3c6e886b58badb7edbd3092ccb4aedd80101af93"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0023.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/23.png",
+      "sha256": "9cf03bf25d59c383365a6f9b8e954f8db034f6caf53277537f41597dd72c6c64"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0024.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/24.png",
+      "sha256": "ac1dc41832a0724b1693ee5b3fd7a50312fbcca678bfd467bae6cdced3fb4654"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0025.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/25.png",
+      "sha256": "258187e87e71b8466530fda9b07961a2a14943a2c9010e0802a294db2e1a6cf2"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0026.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/26.png",
+      "sha256": "535eddb4dc08214a842e3e1d4480de0da515095765563f1bca59ed22f1457bf2"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0027.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/27.png",
+      "sha256": "cb1fa9ff4cd033675fc77c34b837fa318ca4e6fe76acca19bae383df1907435b"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0028.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/28.png",
+      "sha256": "2b94ec49c88b2a7ba7a90315c74335c65c9da9a4d45a12bc9fd7c3ff9c968cac"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0029.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/29.png",
+      "sha256": "d35436f46fef91051bfaedd4d7a2d9b2014160180a09676f9080ae449699be08"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0030.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/30.png",
+      "sha256": "5f7d96a958d794fbd5e8262503a84e2ea67268a7ba407c2010de314395319874"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0031.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/31.png",
+      "sha256": "5159148a903510539c1dd38cebbd64ed5da2be5c56f21b624bdade966c4cfbb8"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0032.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/32.png",
+      "sha256": "a032ef340313dc77577b1b446b3deb800c9acd1b2f9f683442b0e103c9cf3ac6"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0033.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/33.png",
+      "sha256": "7cd13da3c4cc96d6d0405221f6a970994f2bae4fbaaa9cfd1e4fc86056051c13"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0034.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/34.png",
+      "sha256": "c58a741ee273d555938c978d2c7fb9d400d8ef178b370c0b04940ff45bab31c7"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0035.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/35.png",
+      "sha256": "7017aea0d40c46311240d1bd1ce11264ba9e981a929d8def4820c9434e4fd489"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0036.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/36.png",
+      "sha256": "d1692851bf8fba9274552d5c4b387651da940ec01ed14631ad221143bc421a26"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0037.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/37.png",
+      "sha256": "dbc7d3666b64d37518fbe89ed4c57468dc8c06eb9003f9ea9936f6755e892324"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0038.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/38.png",
+      "sha256": "1802aa66608178af32204f0759411916148ff454cf3e99133a4bf0c286ba26cd"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0039.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/39.png",
+      "sha256": "66de2330c5976c756d5cfe6d741d3801abfdb82f153138e218e11b5d3bae3665"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0040.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/40.png",
+      "sha256": "af39e9f5cd459179b27591ee847ed2ed017dbae06fb245603346e9fd27e99423"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0041.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/41.png",
+      "sha256": "f998d7f7ed7250fbc4d72dda2b39954474968e278e3ebefb6cc88c990f4de574"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0042.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/42.png",
+      "sha256": "b85039cd31d92d354ab929289daddac5d4268dba8d30b22f15dc5fd5c7a1e2b8"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0043.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/43.png",
+      "sha256": "d859c2ad5351e96144bbdee4a5e378bc9ba12efb820c4d97b4bdf21c4a1248bf"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0044.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/44.png",
+      "sha256": "ac26de537134799efb5e155c8f7cfe71ecb91137fc2dfb7d4e2ddc976cbd0cd9"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0045.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/45.png",
+      "sha256": "0258000ba66aa567ade95f534934ea69927f08b3f8c69259083477038bafefdd"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0046.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/46.png",
+      "sha256": "600cfb75ad70659c86346c4f84bd18c12ad44878fd8e71ccc1d403c4e04ac873"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0047.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/47.png",
+      "sha256": "5b65a55a53bce9b22fa1454dbb4d9072dfe2987867d4a545df0d087c39f9174e"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0048.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/48.png",
+      "sha256": "c3c19f791f54473c84ae778d1074ed00f4471d772e01d23ac7ea657104fa95b6"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0049.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/49.png",
+      "sha256": "b2df31b1c9f22b116152c4ed57b4a8b37a7b73912e45820b3b4dad0a9124c24e"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0050.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/50.png",
+      "sha256": "474a1236bf0b8930307fbb4dc9ef0ef19ee97c122f9e2171117ade515345dd62"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0051.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/51.png",
+      "sha256": "550316ac55a33539c25440f5d3896dab9c0622869170e0800751e5242971e41b"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0052.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/52.png",
+      "sha256": "b2b716c37ff61487470ec750c5bd6705d7cdc5e7d4657730fc63564be252523c"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0053.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/53.png",
+      "sha256": "3dd5e4fc427f9e66c0487bf9c2e420334a989079ee025fc00b3a97b715eac629"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0054.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/54.png",
+      "sha256": "d9647f6b6e1d884d397abea53b2a9c5e1eaea43bb46391444dc958241866d251"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0055.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/55.png",
+      "sha256": "28d9ae9c87c3eba727d7f91c1d0235b038fa61d0a7fb5e3563c983f258ad12ff"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0056.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/56.png",
+      "sha256": "e984bdf0831da9bef61510e3fc9fad1ff2b7a906afce8a3f1a50eea30074c06c"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0057.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/57.png",
+      "sha256": "f50b955b84b5391398d2d9a8bcae3b42769c35b6f0f3078468c0d78be8cab8ff"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0058.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/58.png",
+      "sha256": "87256c0a4da8e6c09be0b8d0556cd0e95cf4ddbd3db96e752900ac4fe1f7d795"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0059.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/59.png",
+      "sha256": "c7084ec5cbf096f64c2f276ff090d85693176547482e03e577f59fb531728436"
+    },
+    {
+      "source": "DPD_1_WM10_p5/morph/frame_0060.png",
+      "destination": "pain_faces/Pain/DPD_1_WM10_p5/60.png",
+      "sha256": "8e2ff0975b1ae3603134df11e3d43dc0c38c59211266b1805c26bc30d3a52bac"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0000.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/0.png",
+      "sha256": "26a9a721415ee5eed7380acd2c99723a193995f89d6bde7f65588cc180e04e23"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0001.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/1.png",
+      "sha256": "6ac5c253e10b759f3ac00d471bed23cb14534f60d1967e40f1d73084532f4203"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0002.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/2.png",
+      "sha256": "e1429329385249da62154d565c7ae0e6d1f59de55dbe430061a0bafbd50ac46d"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0003.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/3.png",
+      "sha256": "c74303f71be0750c2650abeeee763384a8b8860fc38bfd249b0346a6d3776988"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0004.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/4.png",
+      "sha256": "51ca0b37947e92e38eff2ec1357be4567abadf6c71ca6581b0a7e1f28abec7aa"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0005.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/5.png",
+      "sha256": "97eef9a7065fc44e01230d03693f902e290f6e1d91c0ebdda2a0b7579e77007e"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0006.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/6.png",
+      "sha256": "636d35e36227af1b86cd6035552388370826d856a04c8e71d838515d705328f8"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0007.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/7.png",
+      "sha256": "f377751c93ad7dab00e920cafebf964644d9fc7fbd1899f117152f8f0046e6ff"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0008.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/8.png",
+      "sha256": "1d6fb0d1eeb1be5432f8ab4b445d8699a06b55614f703ed80a702b1b27e12dba"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0009.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/9.png",
+      "sha256": "c67f94f15761ba947df2bf6fb6ec62e9dc97bcb90dfec8f686fbe867c404b326"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0010.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/10.png",
+      "sha256": "7c269f7c7c3062fb8cba805ff0c2a06b6dcedbfd56aa53e488fea239cda532b6"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0011.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/11.png",
+      "sha256": "5792a0536322e6389c671c6b5c59114526116668d57eb2c1c3ebcac7c23b84f3"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0012.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/12.png",
+      "sha256": "a02766198c2364d79684137361d0b93ca04dbe52af2ad7db51274388d724a6d2"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0013.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/13.png",
+      "sha256": "a39c4ab9a33036743bf3193bd08e3e52a20cecc465d0ea9c300b1d22a4749f6d"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0014.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/14.png",
+      "sha256": "e46b7742a1a189331ae33008a59465b2dac0a0a1a55c6416776477a1f8d225f0"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0015.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/15.png",
+      "sha256": "69738829785be7c2c7f4ef48f933d20f6dcf6516fcbf09d1e4e15108cd1f95c4"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0016.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/16.png",
+      "sha256": "4e0f641cfb540f04d481e3b6f65c484e02dd62c7e8c5cdcaf93a8bea563a6f23"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0017.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/17.png",
+      "sha256": "4a867dc337b7ec0b14728e9e05436c8c32c3d001f48ad2f35096205de0731a18"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0018.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/18.png",
+      "sha256": "a298e60c32a1f62d6a2e66211303154687809cdcf3f1cb3edb38fd45329eb84b"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0019.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/19.png",
+      "sha256": "a9336f55b2dd5056bb4715da04ef6f140cbca412a2038500040435aa91269e14"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0020.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/20.png",
+      "sha256": "ce3557b924cbad50d950c4b3e253ae8420cc28b06e6a97175c44c359f146e196"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0021.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/21.png",
+      "sha256": "f5b4c92c893bcf64458317cff65d73536691a2c7cf04a7fe2111fa1c65343c27"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0022.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/22.png",
+      "sha256": "f3fbaa5acfd959c03dc6d998315a0f22df9a0ec77466a5c7f5d53e4fab7aff14"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0023.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/23.png",
+      "sha256": "4e2fa3edbf9f3f5bf1676fae4d02e0760dde3d400fff51c4062d9d3b33b97e6f"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0024.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/24.png",
+      "sha256": "538dea8399ea66078d0d0e29238aa6b061fbd661543c76efca247357650c611a"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0025.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/25.png",
+      "sha256": "be300781163fff3946f951e1826735db20a5139eb73f4eba37bd7969302f9cab"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0026.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/26.png",
+      "sha256": "8a6da36273c2120ea6aa143087b6115fe8279820491b26009c7921273afe6856"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0027.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/27.png",
+      "sha256": "564148fd64949c668d0ff57daacdaa3bb35819c895bb0d529eddcff77e061e9d"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0028.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/28.png",
+      "sha256": "3116284f9a5001471d333830b8a98db67c32b94fa8a67418932bb49a768d03f0"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0029.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/29.png",
+      "sha256": "2d7b860bb3ece65483b86f41d8ed2d4a151dc66c8a01da5a9d23e12ca5199510"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0030.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/30.png",
+      "sha256": "14fb74a8900eb5be9a0e265a1d0a5c7ac20f3f010fd3eef3bc31361c04e0f42c"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0031.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/31.png",
+      "sha256": "b336ff804067310dedf665ac738e7760a066e091842640736957bf39b4ecb015"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0032.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/32.png",
+      "sha256": "4504d10870233182bd6047bbf8c9389a09e55bdd7a4c391006e6a264d14731bc"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0033.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/33.png",
+      "sha256": "6608abaf2432f33d18308473492ef789b61ba03a8b6fbbd983703aed4a31ced8"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0034.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/34.png",
+      "sha256": "1c79f8d4cbf3fef2678a8903068b42cb9386473e044cc62950980b466eae8bfb"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0035.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/35.png",
+      "sha256": "cc5de9b1594db2f38967284b5c237446c25caabb677ba885e59cf58fbb9a8716"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0036.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/36.png",
+      "sha256": "5cd33398474488eddbac619cab3dbb0ca8332e10e6fe3031fba98fced68f1645"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0037.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/37.png",
+      "sha256": "d242deb7072c620c89e91e2aa1c63c8e661ac51df0040d8b44bab686f439dd3a"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0038.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/38.png",
+      "sha256": "ca5a31c2a3b252e2ca6918422922e055cf5625f06a0d798f67751246a408d0bc"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0039.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/39.png",
+      "sha256": "037ca475f55cb6853580112094d7e6712ba284d3afaf9bba3904639b4a257d39"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0040.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/40.png",
+      "sha256": "cc072d7813504806eb03ab912eee39bf7a345819e9483ce1c563f0d96d999adc"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0041.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/41.png",
+      "sha256": "fb34dc268184efe8eae0f1aecc763fa3224e539d71f7a8d8559eb94e057c1514"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0042.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/42.png",
+      "sha256": "883d7c0b64fcf52c027dd6ec8d27ae88a6bf67857e514241b6f14efd6c590527"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0043.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/43.png",
+      "sha256": "9d88dd87ef283864a2a6d876db2593d953b7a30d7b110bebd7d22093aa74e366"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0044.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/44.png",
+      "sha256": "466413968572a132447c3745815f86a72e93319c414b88b0bcb6d1ee7cc2b933"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0045.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/45.png",
+      "sha256": "5f31731e25c0caa6ee3de049a0f9436c49ba2b481d5c2da1d26b6decca9a4708"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0046.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/46.png",
+      "sha256": "2219b456662610d40a88ed4c2457515cdd17ae5c1dbf2cf8e3185dbb53a8c474"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0047.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/47.png",
+      "sha256": "0dff8a2a8a36eb26759499f4df32dabec276c8036d0f990258c94fb89e73bc0a"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0048.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/48.png",
+      "sha256": "2664d479abe186aedcf3680aa06aa5d4506bab89448fd58110ef304c38fe08ce"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0049.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/49.png",
+      "sha256": "9cb490f64d70074dffe3802dd666caf76deb7336bbffdea177d937539dcad38e"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0050.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/50.png",
+      "sha256": "a967a55b60daafca019cfcc903750568829a82e2e93d2d3c0491074b7f1ef0f3"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0051.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/51.png",
+      "sha256": "d61b10ec184e132c2f86d4063f3717cd4138d9a5464c2ae9ce9d5dcbc1f91237"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0052.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/52.png",
+      "sha256": "680ac37419945ac84935f0392650a333f775aac2e7dbf90b231735ceb21ee36e"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0053.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/53.png",
+      "sha256": "b1f34669ea3b70f753c6bbb48a2dbbd54837a22cbee1b3e810de49efeb0d5605"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0054.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/54.png",
+      "sha256": "2fbc83fef387c3310f68131ecb8c0deac5abeb4750c848b08d0decdf70ffbf53"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0055.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/55.png",
+      "sha256": "dda61f15d8725a4640ed98be0a6e2544065c1b446e9a6a67b5e096ad67a621aa"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0056.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/56.png",
+      "sha256": "8c4cd8199731a29601ffc867e748942f662af2a75fc6e7cbd3be4730faee22cb"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0057.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/57.png",
+      "sha256": "8bdb24e0e2d3fa734e143ee705ffe527ad0137a7aa00a062b3d9138f7e74dc13"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0058.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/58.png",
+      "sha256": "df94fae79f9ddf8fd6f2f2a329e8d8eecf9b64b02609f6635ee9cefa6b468230"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0059.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/59.png",
+      "sha256": "9850d2ea63e27e866a53b9ea73f9ca3a2fd2f9a291e6d96294070ab8017048ed"
+    },
+    {
+      "source": "DPD_1_WM11_p4/morph/frame_0060.png",
+      "destination": "pain_faces/Pain/DPD_1_WM11_p4/60.png",
+      "sha256": "91100ad8deff84f8df2aa566c171afbdec7aeb19c65effca7f64ef29aa6007a6"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0000.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/0.png",
+      "sha256": "76dfefc86d809d0ab163188aba1a568963cdfb25c16fa8c5bd53144789ce0f83"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0001.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/1.png",
+      "sha256": "cc7e4531b0ed0a44ff79c757c0f9118e8732da0e3e90124da0b98061272d7159"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0002.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/2.png",
+      "sha256": "49d8c66c9cdf208ce8a45f0df5a53396227575fe31c137fb14a09d07dcc65d58"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0003.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/3.png",
+      "sha256": "e5d96b3997dc2b0c572cdcf1d1be5076c948b8b483290970772379b71ec80bac"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0004.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/4.png",
+      "sha256": "a58ae199f4531c56ea70ab5bd6eb40fef2f07940a2c68c8c4e86045744e326d0"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0005.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/5.png",
+      "sha256": "fb3b525bd3271fe5f7dbacbd57f6c2dae0382cc17d61271ae33724c45d8283e8"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0006.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/6.png",
+      "sha256": "b07beadfeaf03dc6cf6bb5d5a48d9b2f2d90f5a915b52190b47b63654f56f00e"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0007.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/7.png",
+      "sha256": "2dfe5ed277b91513f0df4f09f9d4d239d2db4800139073988ec13dab587e650c"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0008.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/8.png",
+      "sha256": "b95eec7a2591e594de1ae14be2c237738885d973c403171badcbba86e2d1048a"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0009.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/9.png",
+      "sha256": "0ffd131c67a549f511887f1f00332a890c7fcd5d7d9f04e0583fbfd7aec0603c"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0010.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/10.png",
+      "sha256": "7bd8154ce4227b098907bbb3385add0bef84a47db00cbcd636099160efb1db8f"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0011.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/11.png",
+      "sha256": "d83f49cbd88431bdbc64a6f8a50b7b877516ad06154cd58d6aadd4bff220acdb"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0012.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/12.png",
+      "sha256": "abe896f8df3d7e565c52210a0fb46f724397710b5d9d08fde9e0bc681a05b56b"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0013.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/13.png",
+      "sha256": "405dde80ba96546f8d241720a04378095b626262e8f024fda4bb9f109eaee930"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0014.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/14.png",
+      "sha256": "ae8644c794716bd8a871bc66b5c369d13c84fb7663d40d44b5a8b15efa1fcca1"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0015.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/15.png",
+      "sha256": "e78d093aa593fa7bcc447be1c107497ccb95e9fd9b2f1eadb7ec3327ef172127"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0016.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/16.png",
+      "sha256": "7b04aec0d8dd962f38a83c8d49eee8b788a80d3253acaa50656edb19ed49e4e7"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0017.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/17.png",
+      "sha256": "2a07b3efd96f1f6bd48c17bf8fb02a1d381eb3eefbfe3fbe216ba605d87c0889"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0018.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/18.png",
+      "sha256": "14bc7e8c47bb7c285aa7a24ae67b1c707db11fbb89962895ecbf0940f9ce0cad"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0019.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/19.png",
+      "sha256": "3c2dd36b5b895e92ddf33c145c19f0141a4ee918e1b305a6b139b728927d836c"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0020.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/20.png",
+      "sha256": "ce27a994ac70cefd42134a4959a3685a145ec65506d292a7b6407386ecd5bf84"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0021.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/21.png",
+      "sha256": "23bfed1443eec585728662c8fd7b58fc3cc4a532c35422be37b0242f1ec8eba8"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0022.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/22.png",
+      "sha256": "a412853f9387ff80e335b1dd45a66fc383dd3abea2693cc5b39b01607cd8b838"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0023.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/23.png",
+      "sha256": "8304ab0f58b6b94cfa8299b104f95f7a035f46208dfd084e60863643b5aa2fde"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0024.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/24.png",
+      "sha256": "56141b802ecb1e4d2489a4bf037ebeb98a304312d6f819cca7cd4868b0466395"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0025.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/25.png",
+      "sha256": "27262b87198c0a0d1484f2dedef82d0387749354a6c46a46f8a0eab0752c045b"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0026.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/26.png",
+      "sha256": "2da2d057a2fb5fe373dc8093f4b0ffbab26b18407f4d02366465b87a85a61fa9"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0027.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/27.png",
+      "sha256": "323746863162884b026ad224a0df80b8467b3d795ad53889c6c39a88df08c955"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0028.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/28.png",
+      "sha256": "1a05a4979370de5798ceb95579346ea5a41bf83e9d995f803fd332ecd6769eac"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0029.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/29.png",
+      "sha256": "5a840fa108858b562b0f2402d3e216db3892e3e7efb72a0bfb24e7f30650f676"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0030.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/30.png",
+      "sha256": "d4a951554bd7d1be8c296a2923230c6eaa952edb310034e3e3c6defeab130f49"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0031.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/31.png",
+      "sha256": "0c1ec441cf715a2af6cf8ce26b49eb8acbf51b56cda9c420998607c29358829e"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0032.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/32.png",
+      "sha256": "9d239ea8cec79fa3350b8bba969d3de79dec3a82a5092f520c9a38b5ea111301"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0033.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/33.png",
+      "sha256": "e5c8a407c0913acdc1da1cc3467bb766446d105e9beced75b43be8c6d7af3882"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0034.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/34.png",
+      "sha256": "b48b82f8b9bc98c04df4ac480926bdc273f4ddb5811b34e9ba1e928a81235460"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0035.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/35.png",
+      "sha256": "5159adcdb100318b4cfde839bd9171a614dea59af7d20067a54bb0976dfce5d8"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0036.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/36.png",
+      "sha256": "b611498783e7186a578c7e013591cadd2094419e2dd5e7ff3d2b4fb970329184"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0037.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/37.png",
+      "sha256": "ea6bb7d8effaed6165218a0d24672a3566afff4680234c00b85e15ab1a1b4e14"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0038.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/38.png",
+      "sha256": "21120395b842d2e6d48c4a37545b407ce227435839a0aff92f25a62a41d89cc8"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0039.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/39.png",
+      "sha256": "d796c25e97a2fa9b4cb63285deae9e4f19eedef148f79f06104c2f62e3a5d067"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0040.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/40.png",
+      "sha256": "2a0e6be63afc0138e02d7d996bdf4f414eaf4f65a22e87480b577763541f8476"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0041.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/41.png",
+      "sha256": "9b913b9ed6ff1f440a93cb9383e90172f2acbe1a4e953e7da0dfa9b46eab3e85"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0042.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/42.png",
+      "sha256": "39541a3e74964be75a4555cf5e031a65a65fefb4722947167c92007c5c46928b"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0043.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/43.png",
+      "sha256": "d60973853c6686c2fd3de7356cfc1a3ccde158c456983a3a275ed4b5874ca28a"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0044.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/44.png",
+      "sha256": "1372e8cd16d44a201a8307f83735741eaab66e16759c7fff283e650fb6bc0425"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0045.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/45.png",
+      "sha256": "b301d04e67c6b053fa40b487b881997711fd6e978752fa97770660af539893da"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0046.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/46.png",
+      "sha256": "949662de77091994df448fe1afb93bdc9247f36f5f59feca4ac93186e168fb3b"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0047.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/47.png",
+      "sha256": "8c7ea74472afb273f93bde82841ee251b6ad01152ddf631385d8cbde109fc340"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0048.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/48.png",
+      "sha256": "d3f6967820353ae25e571ac35b9b82c901beb9af1688996859368113675cfc85"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0049.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/49.png",
+      "sha256": "79557f1f761a890e8f1e7200b278f630b98ae67bdcd8508e6a80c06adb1a80f8"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0050.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/50.png",
+      "sha256": "0edc041b246bbfeb304305a761b3adee4bc8cc6695a8607f66c78e9f966d4205"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0051.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/51.png",
+      "sha256": "e11e0adad1f863ed3531748c047b1e9de2f69054572dca75b2cc3561af0e5ee1"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0052.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/52.png",
+      "sha256": "28f245ca180db907be2c3399a4d273378a1589e936738f5b0d0efe9d1476eb5f"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0053.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/53.png",
+      "sha256": "9f26d8a9529b3e61f96cc0a74e2edf6c121ae9d0fb3b03637e3c74aca05be224"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0054.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/54.png",
+      "sha256": "03d7256417b1f2da93be64a073832d3152bb46c8cf0e11628f7094a45b4188e9"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0055.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/55.png",
+      "sha256": "f849316e936206cc3d23607d960137f40c0d33c8739ecca34625de9e40fc0042"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0056.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/56.png",
+      "sha256": "45534c33df35f45b8f87f0a92448843b37f496127c4ccfcbedc2fea77847f772"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0057.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/57.png",
+      "sha256": "8b166c47138095b72606f783391bf6d5cd5a362f61ec9ff44e073d802384e069"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0058.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/58.png",
+      "sha256": "e28e453a6d0b3a0575bd5fdc86845e0a0251879a0fe77ed8359e31fc0ceecc39"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0059.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/59.png",
+      "sha256": "f7affae4a646c4602a047bfbf9a269ad8958b24c39ae15e40a2dbbdd67d09d77"
+    },
+    {
+      "source": "V1_target12_am_o_pms2/morph/frame_0060.png",
+      "destination": "pain_faces/Pain/V1+target12+am+o+pms2/60.png",
+      "sha256": "de4df3f0761f14524b30af2c2f6e0ccf85e425c8fbbad1afb6161f6e00bcd509"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0000.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/0.png",
+      "sha256": "a276c07c1f92063c486c45e19ad660080c908ffa41cbf3a667642a6e56390dff"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0001.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/1.png",
+      "sha256": "6c4018ade65c404d019bee81cc784cdd99d8749f0cfaa9dbe0651bae5d05efe1"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0002.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/2.png",
+      "sha256": "bba9b1f5f73a45d25b233eac35d4e39d8c03e759b4721dd78a50e99230cc8a6c"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0003.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/3.png",
+      "sha256": "600698f2d697b4cd6dce3cc94f491b7fc6227fafffa2448b7f88b377e45c9735"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0004.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/4.png",
+      "sha256": "a8240b956a6c0939309e89ceac4349f1689925f6a046c341b6e793fb67b428cc"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0005.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/5.png",
+      "sha256": "5b715cbf2d74cc0202fe0672128dfa41cdc181d90ce3c3a157acd19a75831d19"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0006.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/6.png",
+      "sha256": "1656defbfc6cc9a825d8600b99487fe3ad842653b0709e6c628b07351e632bde"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0007.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/7.png",
+      "sha256": "9328745371d50eb4ba1732ae7349ecb0e294e774d0328a6ce6157c615b6e02fc"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0008.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/8.png",
+      "sha256": "d7cd4fd2154939bfbe674aa58cc160403c2ddfb876e1172dd5143824269d23b1"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0009.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/9.png",
+      "sha256": "db5402716c118121a10aee25e98ce610c009f355d13fbbe3c5c5c89d96dfb5e6"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0010.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/10.png",
+      "sha256": "991e56e0a7f467ef7b72e175059b2fe0f21dac9584a816f75629ffdab1eae971"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0011.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/11.png",
+      "sha256": "eed50a2c164b49b9674c542d78be84f388fab26d89c51a60c0a9c6c26ad82312"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0012.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/12.png",
+      "sha256": "d4e18b913b76c368fbd515ee4c0ade6f24e6a4fd2ba1f3f96494c21dc79c6ec3"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0013.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/13.png",
+      "sha256": "4d2a935fdbd553527a62c6481e52cbef32e69862e16b2a5a833d16153bca45b2"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0014.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/14.png",
+      "sha256": "a4f7d3e4ff6f31d7d74605f8286c3de7f6a486d137296789589eb6b53b38db25"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0015.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/15.png",
+      "sha256": "ffc86d528e8c3a5d56501b39de039a6be9bfb459da10281f31f8441d82cee17a"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0016.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/16.png",
+      "sha256": "77a297455fdaf904adaa6e4709ae7a8da3df45820e575ce872a49d59b537ac8e"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0017.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/17.png",
+      "sha256": "5d5237f066881ee25c08c5f32cf70b0a4cd33b93237ef58ee9475f08377f82b7"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0018.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/18.png",
+      "sha256": "d5ccf53de19e8548b76715743a3cbf44aef15b5224fec653c3a9deb2589d2d7a"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0019.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/19.png",
+      "sha256": "26c9a2672a8cdd3c0081ce897dbff4a36e3f2405e36e0882e014e2837cd8e2ef"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0020.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/20.png",
+      "sha256": "ac5680f13038d6a66e2036fb337fbd416a5cbca4016c7dccfb4999a14a2d8178"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0021.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/21.png",
+      "sha256": "13f9edf94f1c0144fdd23455e004cf6cf04b1117280a69b756ba0d3b6461c8f7"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0022.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/22.png",
+      "sha256": "7e9d3e1b703f88abdae28592e4efe79afddcaee98caa0686459be5b1e83a2580"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0023.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/23.png",
+      "sha256": "d3ebcc949e2a793eec27c5adf98d8d77ea58f4619a2dec85b5edcb5ed646b7a3"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0024.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/24.png",
+      "sha256": "a81dd3107d081b62548ae3d4b00604ccbcbe2805e3e7cced43057ca80e1ddfd1"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0025.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/25.png",
+      "sha256": "b2e9f5ea73d9cbc75ca75b4446bac3f7c1c5cf16fa60c81d7da5d2cfa4e3b327"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0026.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/26.png",
+      "sha256": "05e26345e0109200cffd786b40fa57510e87a7f1173e7c8f9a29873b9246bd3b"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0027.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/27.png",
+      "sha256": "58424d79ab3b6a1be2827f559858d4fe6f46c18b0187ac56c03d3a2f75a8effa"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0028.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/28.png",
+      "sha256": "3c9a9c961d5b98f88c7c055fd263ef6ff48b1a74fe788a446339b1fa7d40f04b"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0029.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/29.png",
+      "sha256": "5c2e888922e161008aff7d6bbc0f2350619bbcda49a74e9996f77cd7bf839800"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0030.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/30.png",
+      "sha256": "fe72d7b77154aa0eb1a5d55a99648c7cf724aaf536e120f2c00d1e4561df9f72"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0031.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/31.png",
+      "sha256": "462eb17511fb9a9ac19ef4802a078d67d119d209aa959603a35ae2e3c8fef991"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0032.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/32.png",
+      "sha256": "57286ce52773487fd1520bb5fdccb9f6d5f242974582c1d428aaba884d659363"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0033.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/33.png",
+      "sha256": "429141da99a1edeb93dff783b92ec3f086b3d85383c8786612ad166bea164430"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0034.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/34.png",
+      "sha256": "76253536548b7642d782cda2926115eb9f6a73f53021a5353003bb990414662a"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0035.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/35.png",
+      "sha256": "ed85069fe9a0dc2f80322770f6e388b07a63c6ac39df35f94d8d3f84c485373b"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0036.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/36.png",
+      "sha256": "0e6115c60b55dd918c9e1ac4f6114c4a7860f523d61b983ce311b9e0d73d8db7"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0037.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/37.png",
+      "sha256": "797cefb94dc9a048d5a944dea1b47e0ad2a03b92f2a02412a747e43e9a1cd732"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0038.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/38.png",
+      "sha256": "a52a32b717dbffd81d468538160aaae6bdc888facaf47bea827ed068d3a9497e"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0039.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/39.png",
+      "sha256": "e0b9c6999dd8f7af8c9366b4446a2dcec541ba61d8369ddacf072d26294d8b49"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0040.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/40.png",
+      "sha256": "f8950a0312e5bec312a403eda471436bbf7abf63b4a2f1313afd2fbb54e90ea6"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0041.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/41.png",
+      "sha256": "6a9d4a6888aa4c409e23315fd33fcd02516adc74919d99db858fbc93c07b84bd"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0042.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/42.png",
+      "sha256": "ea5b24987177b86c79b8b50e0dcd0fb89e113b7aef7a7885f44ff17f81d546a5"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0043.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/43.png",
+      "sha256": "a10c8aac51372e8ec43df6d27a4d961339c0aa4efba1c053b1746c7601ca7fd2"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0044.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/44.png",
+      "sha256": "ad4e028dd77453c740393f5dadcefa725e985c82afe136b84113bffae2248fb2"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0045.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/45.png",
+      "sha256": "60ac267d8b1aeebc92940dca00c5633f6c7e22bbdd5e0227c28b55a6c1d01f04"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0046.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/46.png",
+      "sha256": "863ef1952ad2430d6ffaea2fa9e2180b888119b73acd760e96371a118666c145"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0047.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/47.png",
+      "sha256": "1d3c652eb9bf03d6417c5b0da2949e5707f7d3429c486d2699acf90066ddf4eb"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0048.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/48.png",
+      "sha256": "574229be725dc64d13c209b7648d982d19dade37353f0730101471391abe1cf2"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0049.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/49.png",
+      "sha256": "63cfd4b7f3baefb207ed8080ac4f8a7b2c082aed788fe15f7361c7e1a3f62fae"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0050.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/50.png",
+      "sha256": "14e82e74aaf48cda626734413df85c978080e76add83acefa1947c10c9269840"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0051.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/51.png",
+      "sha256": "afcea38fb0a64133951b1cc7c06b5cb5e372cb8db00f18ba235b39cdb558b27f"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0052.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/52.png",
+      "sha256": "6b7ca5269159b88c44970046f9d886e24a173fa2d37d0c9336d84613feb5a292"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0053.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/53.png",
+      "sha256": "aafc079a41b1f0d2e05ea083450b1a895487ac48e6c217712c18476e53186945"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0054.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/54.png",
+      "sha256": "3d3f9f675d8b33f940c775a355a6c8b807fe562381bac77198165284deeec750"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0055.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/55.png",
+      "sha256": "159517ba79bb129a9eb01a21f1964e359fa4575066d938fa422033786103f21c"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0056.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/56.png",
+      "sha256": "0d132c715f64612415f43a87b03d40c163c7f2d271d678ef566e413e963f45a2"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0057.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/57.png",
+      "sha256": "817188a22d1fbe5dbd572b04e51dc7ac9f88f239565e24ac131b99713061e860"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0058.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/58.png",
+      "sha256": "fbffa1e073d60e690df9555af50a96e83e13f54d89e2d46a49ba7ecf03807bb7"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0059.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/59.png",
+      "sha256": "bf67c603911c31028237cbbb10c7d19b70520739e814275c1d69d518aec30c9f"
+    },
+    {
+      "source": "V1_target3_wf_l_km4/morph/frame_0060.png",
+      "destination": "pain_faces/Pain/V1+target3+wf+l+km4/60.png",
+      "sha256": "d4fa64d9fe0bb97cdb9f2fce05cf67ba58b3c76205466a75c33ba9a9c5be86f0"
+    }
+  ]
+}

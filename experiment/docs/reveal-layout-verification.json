@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Memory-Bias-JsPsych-1D",
+    "height": 1000,
+    "before": {
+      "x": 390,
+      "y": 184.5,
+      "width": 500,
+      "height": 500
+    },
+    "response": {
+      "x": 390,
+      "y": 184.5,
+      "width": 500,
+      "height": 500
+    },
+    "reveal": {
+      "x": 390,
+      "y": 184.5,
+      "width": 500,
+      "height": 500
+    },
+    "hide": {
+      "x": 390,
+      "y": 184.5,
+      "width": 500,
+      "height": 500
+    }
+  },
+  {
+    "name": "Memory-Bias-JsPsych-1D",
+    "height": 720,
+    "before": {
+      "x": 505,
+      "y": 159.5,
+      "width": 270,
+      "height": 270
+    },
+    "response": {
+      "x": 505,
+      "y": 159.5,
+      "width": 270,
+      "height": 270
+    },
+    "reveal": {
+      "x": 505,
+      "y": 159.5,
+      "width": 270,
+      "height": 270
+    },
+    "hide": {
+      "x": 505,
+      "y": 159.5,
+      "width": 270,
+      "height": 270
+    }
+  },
+  {
+    "name": "Memory-Bias-JsPsych",
+    "height": 1000,
+    "before": {
+      "x": 196,
+      "y": 190,
+      "width": 480,
+      "height": 480
+    },
+    "response": {
+      "x": 196,
+      "y": 190,
+      "width": 480,
+      "height": 480
+    },
+    "reveal": {
+      "x": 196,
+      "y": 190,
+      "width": 480,
+      "height": 480
+    },
+    "hide": {
+      "x": 196,
+      "y": 190,
+      "width": 480,
+      "height": 480
+    }
+  },
+  {
+    "name": "Memory-Bias-JsPsych",
+    "height": 720,
+    "before": {
+      "x": 196,
+      "y": 141,
+      "width": 390,
+      "height": 390
+    },
+    "response": {
+      "x": 196,
+      "y": 141,
+      "width": 390,
+      "height": 390
+    },
+    "reveal": {
+      "x": 196,
+      "y": 141,
+      "width": 390,
+      "height": 390
+    },
+    "hide": {
+      "x": 196,
+      "y": 141,
+      "width": 390,
+      "height": 390
+    }
+  },
+  {
+    "name": "Memory-Bias-JsPsych-stimulus",
+    "height": 1000,
+    "before": {
+      "x": 196,
+      "y": 201.5,
+      "width": 480,
+      "height": 480
+    },
+    "response": {
+      "x": 196,
+      "y": 201.5,
+      "width": 480,
+      "height": 480
+    },
+    "reveal": {
+      "x": 196,
+      "y": 201.5,
+      "width": 480,
+      "height": 480
+    },
+    "hide": {
+      "x": 196,
+      "y": 201.5,
+      "width": 480,
+      "height": 480
+    }
+  },
+  {
+    "name": "Memory-Bias-JsPsych-stimulus",
+    "height": 720,
+    "before": {
+      "x": 196,
+      "y": 141,
+      "width": 390,
+      "height": 390
+    },
+    "response": {
+      "x": 196,
+      "y": 141,
+      "width": 390,
+      "height": 390
+    },
+    "reveal": {
+      "x": 196,
+      "y": 141,
+      "width": 390,
+      "height": 390
+    },
+    "hide": {
+      "x": 196,
+      "y": 141,
+      "width": 390,
+      "height": 390
+    }
+  }
+]

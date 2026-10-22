@@ -1,0 +1,106 @@
+{
+  "status": "complete",
+  "pipeline": "Original RGBA -> fixed aspect-preserving scale and centering -> linear Rec709 grayscale -> common affine mean/SD matching -> RGBA",
+  "metric_space": "Uncomposited linear Rec.709 Y, binary ROI alpha >0",
+  "target_source": "Original SHINIER validation mean/SD range midpoint",
+  "transforms": [
+    {
+      "identity": "BM51_PMS7",
+      "source_bounds": [
+        237.0,
+        217.0,
+        779.0,
+        787.0
+      ],
+      "scale": 1.3333333333333333,
+      "translate": [
+        -165.33333333333326,
+        -157.33333333333326
+      ]
+    },
+    {
+      "identity": "DPD_1_BM12_p5b",
+      "source_bounds": [
+        163.0,
+        127.0,
+        859.0,
+        1006.0
+      ],
+      "scale": 0.8646188850967008,
+      "translate": [
+        70.1797497155859,
+        22.193401592719
+      ]
+    },
+    {
+      "identity": "DPD_1_BM29_p4",
+      "source_bounds": [
+        183.0,
+        26.0,
+        841.0,
+        1003.0
+      ],
+      "scale": 0.7778915046059366,
+      "translate": [
+        113.71954964176047,
+        111.77482088024561
+      ]
+    },
+    {
+      "identity": "DPD_1_WM10_p5",
+      "source_bounds": [
+        194.0,
+        20.0,
+        818.0,
+        993.0
+      ],
+      "scale": 0.7810894141829393,
+      "translate": [
+        116.7687564234327,
+        116.37821171634124
+      ]
+    },
+    {
+      "identity": "DPD_1_WM11_p4",
+      "source_bounds": [
+        247.0,
+        151.0,
+        784.0,
+        999.0
+      ],
+      "scale": 0.8962264150943396,
+      "translate": [
+        49.995283018867894,
+        -3.330188679245339
+      ]
+    },
+    {
+      "identity": "V1+target12+am+o+pms2",
+      "source_bounds": [
+        242.0,
+        176.0,
+        777.0,
+        820.0
+      ],
+      "scale": 1.1801242236024845,
+      "translate": [
+        -89.27329192546586,
+        -75.7018633540373
+      ]
+    },
+    {
+      "identity": "V1+target3+wf+l+km4",
+      "source_bounds": [
+        232.0,
+        166.0,
+        787.0,
+        833.0
+      ],
+      "scale": 1.1394302848575713,
+      "translate": [
+        -68.5397301349326,
+        -57.145427286356835
+      ]
+    }
+  ]
+}

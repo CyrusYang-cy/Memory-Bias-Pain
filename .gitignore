@@ -1,0 +1,24 @@
+# Local-only database and derived stimuli: redistribution permission pending.
+stimuli/Delaware_Pain_Database/*
+!stimuli/Delaware_Pain_Database/README.md
+stimuli/filtered_stimuli/**
+!stimuli/filtered_stimuli/README.md
+!stimuli/filtered_stimuli/.gitkeep
+stimuli/morphed_stimuli/**/*
+!stimuli/morphed_stimuli/**/
+!stimuli/morphed_stimuli/**/.gitkeep
+# Existing facial stimuli copied locally from the experiment branch.
+experiment/stimuli/**/*.png
+experiment/stimuli/**/*.jpg
+experiment/stimuli/**/*.jpeg
+experiment/stimuli/**/*.webp
+experiment/stimuli/**/*.fg
+!experiment/stimuli/examples/square_to_circle/*.png
+.DS_Store
+.env
+*.env
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.db

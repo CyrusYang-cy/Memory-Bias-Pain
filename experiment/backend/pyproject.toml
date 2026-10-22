@@ -1,0 +1,36 @@
+[project]
+name = "memory-bias-backend"
+version = "2.0.0"
+description = "FastAPI backend for the Memory-Bias face-reproduction experiment."
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.143",
+    "sqlmodel>=0.0.48",
+    "pydantic-settings>=2.15",
+    "uvicorn[standard]>=0.54",
+    "gunicorn>=26.2",
+    "psycopg[binary]>=3.2",
+    "typer>=0.27",
+    "pandas>=3.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1",
+    "httpx>=0.28",
+    "ruff>=0.14",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

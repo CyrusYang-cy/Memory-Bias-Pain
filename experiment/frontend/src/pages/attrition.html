@@ -1,0 +1,34 @@
+<!-- Attrition check: participants must type the sentence exactly (pattern below). -->
+<div class="page">
+  <p>
+    This is an anonymous survey consisting of multiple questions. A few questions are open-ended
+    questions where you need to type a few sentences or a short paragraph or two. Many online
+    workers do not like answering open-ended questions and tend to quit a survey once they see such
+    questions.
+    <strong
+      >If a sizable number of people quit a survey halfway, the data quality of that survey would be
+      compromised. However, our research depends on good quality data.</strong
+    >
+    Thus, please make sure you do not mind open-ended questions before taking this survey.
+  </p>
+  <p>
+    Please type the following sentence into the box below exactly as written if you still want to
+    take the survey:
+  </p>
+  <p class="text-center">
+    <mark class="attrition__sentence">I will answer open-ended questions.</mark>
+  </p>
+  <label class="visually-hidden" for="attritionAnswer">Type the sentence above</label>
+  <input
+    id="attritionAnswer"
+    name="attritionAnswer"
+    type="text"
+    class="form-control mt-4"
+    autocomplete="off"
+    required
+    pattern="\s*I will answer open-ended questions\.\s*"
+    data-sim-value="I will answer open-ended questions."
+    data-msg-required="Please enter the highlighted text, including the period."
+    data-msg-pattern="Please enter the highlighted text, including the period."
+  />
+</div>

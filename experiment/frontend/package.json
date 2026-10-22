@@ -1,0 +1,44 @@
+{
+  "name": "memory-bias-frontend",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "report": "node scripts/make-report.mjs"
+  },
+  "dependencies": {
+    "@jspsych/plugin-call-function": "^2.1.0",
+    "@jspsych/plugin-fullscreen": "^2.1.0",
+    "@jspsych/plugin-html-button-response": "^2.1.0",
+    "@jspsych/plugin-instructions": "^2.1.0",
+    "@jspsych/plugin-preload": "^2.1.0",
+    "@jspsych/plugin-survey-html-form": "^2.1.0",
+    "bootswatch": "^5.3.8",
+    "bowser": "^2.14.1",
+    "jspsych": "^8.3.0",
+    "tom-select": "^2.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.4",
+    "eslint": "^10.12.0",
+    "happy-dom": "^20.14.5",
+    "prettier": "^3.9.9",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.1",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=22.12",
+    "npm": ">=11"
+  }
+}
